@@ -10,7 +10,7 @@ function ListOfStudents() {
   const { favorites, addFavorite } = useContext(FavoritesContext);
 
   return (
-    <div className="container mx-5 bg-slate-400 p-5 border rounded-md">
+    <div className="container mx-auto bg-slate-400 p-5 border rounded-md">
       <h1 className="text-2xl font-bold mb-4">List of Students</h1>
       <ul className="list-disc pl-5">
         {studentsList.map(student => (

@@ -7,7 +7,7 @@ function FavouriteStudents() {
 
   return (
     <div className="container mx-auto bg-orange-300 p-5 border rounded-md">
-      <h1 className="text-2xl font-bold mb-4">Favourite Students ⭐</h1>
+      <h1 className="text-2xl font-bold mb-4">Favorite Students⭐</h1>
       <ul className="list-disc pl-5">
         {favorites.length > 0 ? (
           favorites.map(student => (
