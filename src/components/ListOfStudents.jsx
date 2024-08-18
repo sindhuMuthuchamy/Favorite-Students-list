@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FavoritesContext } from './FavouritesContext';
 
 const studentsList = [
-  'Sindhu', 'Hasni', 'Priya', 'Thaslim', 'Suba'
+  'Sindhu', 'Hasini', 'Priya', 'Thaslim', 'Suba','Bharathi'
 ];
 
 function ListOfStudents() {
@@ -28,7 +28,7 @@ function ListOfStudents() {
           </li>
         ))}
       </ul>
-      <Link to="/favourites" className="mt-4 inline-block text-orange-600 underline">
+      <Link to="/favourites" className="mt-4 font-bold inline-block text-green-700 hover:underline">
         Go to Favourite Students
       </Link>
     </div>

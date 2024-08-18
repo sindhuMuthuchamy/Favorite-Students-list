@@ -6,7 +6,7 @@ function FavouriteStudents() {
   const { favorites, removeFavorite } = useContext(FavoritesContext);
 
   return (
-    <div className="container mx-auto bg-orange-300 p-5 border rounded-md">
+    <div className="container mx-auto bg-pink-200 p-5 border rounded-md">
       <h1 className="text-2xl font-bold mb-4">Favorite Students⭐</h1>
       <ul className="list-disc pl-5">
         {favorites.length > 0 ? (
@@ -25,7 +25,7 @@ function FavouriteStudents() {
           <p>No favorite students yet.</p>
         )}
       </ul>
-      <Link to="/" className="mt-4 inline-block text-slate-600 underline">
+      <Link to="/" className="mt-4 inline-block font-bold text-pink-500 underline">
         Go to List of Students
       </Link>
     </div>
