@@ -7,7 +7,7 @@ function FavouriteStudents() {
 
   return (
     <div className="container mx-auto bg-pink-200 p-5 border rounded-md" style={{backgroundImage:'url("https://images2.alphacoders.com/130/1303532.png")'}}>
-      <h1 className="text-2xl font-bold mb-4 text-blue-200">Favorite Students⭐</h1>
+      <h1 className="text-2xl font-bold mb-4 text-blue-200">Favorite Students🪄</h1>
       <ul className="list-disc pl-5">
         {favorites.length > 0 ? (
           favorites.map(student => (

@@ -20,11 +20,11 @@ function ListOfStudents() {
             <button
               onClick={() => addFavorite(student)}
               disabled={favorites.includes(student)}
-              className={`ml-4 px-4 py-2 text-white font-bold rounded ${
+              className={`ml-4 px-2 py-2 text-white font-bold rounded ${
                 favorites.includes(student) ? 'bg-gray-600' : 'bg-[#787055] hover:bg-[#a89b71]'
               }`}
             >
-              Add to ⭐
+              Add to 🪄
             </button>
           </li>
         ))}
